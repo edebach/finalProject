@@ -1,0 +1,10 @@
+# .gitignore
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+data/outputs/
+*.sumo.cfg
+*.trips.xml
+*.netstate.xml
+*.tripinfo.xml
+*.net.xml

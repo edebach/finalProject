@@ -1,0 +1,27 @@
+# ---------- Core scientific stack ----------
+numpy>=1.26.4,<2.0        # ultima 1.x, compatibile Py3.12 & PyTorch
+pandas==2.2.2             # supporta sia NumPy 1.x che 2.x :contentReference[oaicite:3]{index=3}
+matplotlib==3.9.0
+tqdm==4.66.4
+
+# ---------- Geospatial / network ----------
+osmnx==2.0.3
+networkx==3.3
+geopandas>=0.14.4,<1.1
+shapely==2.1.0
+rtree==1.2.0
+pyproj==3.7.1
+
+# ---------- SUMO Python bindings ----------
+sumolib==1.19.0
+traci==1.19.0
+
+# ---------- ML stack (later milestones) ----------
+torch==2.3.0              # CPU; add +cu121 wheel if you need CUDA
+torch-geometric==2.5.0
+scikit-learn==1.5.0
+
+# ---------- Interactive notebooks ----------
+jupyterlab==4.2.1
+ipykernel>=6.29.5,<7.0      # ultima stabile, compatibile con JupyterLab 4.x
+
